@@ -1,4 +1,4 @@
-# gem 'diffgem', git: 'https://github.com/andreiradoi22/DiffGem'
+# gem 'diffgem', git: 'https://github.com/andreiradoi22/DiffGem.git'
 
 source "https://rubygems.org"
 
