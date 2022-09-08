@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name        = "diffgem"
-    s.version     = "1.0.3"
+    s.version     = "1.1.0"
     s.summary     = "Diffgem!"
     s.description = "A gem who will delete all the elements of a hash from another hash"
     spec.homepage = "https://github.com/andreiradoi22/DiffGem"
