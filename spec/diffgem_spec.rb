@@ -2,11 +2,13 @@
 
 require 'diffgem'
 
-describe Diffgem do
+describe Hash do
   describe '.my_diff' do
     context 'testeaza' do
+      let (:hash) {{ a: 1, b: 2, c: 3 }}
       it 'rezultat' do
-        expect(Diffgem.my_diff({ a: 1, b: 2, c: 3 }, elem: { c: 3 })).to eql({ a: 1, b: 2 })
+        expect(hash.my_diff({ c: 3 })).to eq({ a: 1, b: 2 })
+        expect(hash[:c]).to eq(3) 
       end
     end
   end
