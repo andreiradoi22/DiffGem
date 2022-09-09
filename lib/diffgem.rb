@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# this is a class
 class Diffgem
   def self.my_diff(list_of_elements, elem:)
     list_of_elements.each do |_key, value|
